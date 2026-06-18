@@ -1,37 +1,27 @@
-# Simple Packet Sniffer (Scapy)
+# Network Packet Monitor
 
-A lightweight Python packet sniffer built using **Scapy** that captures live network traffic and displays source and destination IP addresses in real time.
+A lightweight Python network packet monitoring tool built with Scapy.
 
-> !! Do not use this tool on public networks, it is illegal and punishable by law.
-
----
+The program captures live IP traffic, displays network activity in real time, detects protocols, shows source/destination addresses, ports, packet sizes, and keeps capture statistics.
 
 ## Features
 
-- Live packet capture using Scapy
-- Displays source → destination IP addresses
-- Simple rate limiting (prevents output spam)
-- Lightweight and easy to run
-- Beginner-friendly networking project
-
----
-
-## What This Project Teaches
-
-- Basics of network traffic
-- How packets move across networks
-- IP addressing and communication flow
-- Intro to cybersecurity monitoring tools
-- Using Scapy for packet analysis
-
----
+- Live packet capture
+- IP traffic monitoring
+- TCP / UDP / ICMP detection
+- Source and destination tracking
+- Port information
+- Packet size display
+- Capture statistics
+- Graceful shutdown with CTRL+C
+- Lightweight terminal interface
 
 ## Requirements
 
 - Python 3.x
 - Scapy
 
-Install Scapy:
+Install dependencies:
 
 ```bash
 pip install scapy
